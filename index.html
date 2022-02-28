@@ -1,12 +1,264 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Manning Quotes Site | Cryptogram liveProject</title>
+    <meta name="author" content="Jaya Z. Moore">
+    <meta name="description" content="Supplementary site for the Cryptogram liveProject.">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet">
+		
 </head>
-<body>
-    lp cryptogram homepage
+<body class="bg-gray-200 font-sans leading-normal tracking-normal">
+
+	<!--Header-->
+	<div class="w-full m-0 p-0 bg-cover bg-bottom" style="background-image:url('cover.jpg'); height: 60vh; max-height:460px;">
+			<div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
+				<!--Title-->
+					<h1 class="text-white font-extrabold text-3xl md:text-5xl">
+						The Manning Quotes Site
+					</h1>
+			</div>
+		</div>
+		
+		<!--Container-->
+		<div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
+			
+			<div class="mx-0 sm:mx-6">
+				
+
+				<div class="bg-gray-200 w-full text-xl md:text-2xl text-gray-800 leading-normal rounded-t">
+					
+				<!--Lead Card-->
+				<div class="flex h-full bg-white rounded overflow-hidden shadow-lg">
+						<div class="w-full md:w-2/3 rounded-t">
+							<img src="https://images.unsplash.com/photo-1484075449844-e945b251559e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHwzNjU3NDQ1fHx8fHx8fDE2NDU4MjQ0OTA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800" class="h-full w-full shadow quote-image" alt="To love another person is to see the face of God - Victor Hugo">
+						</div>
+
+						<div class="w-full md:w-1/3 flex flex-col flex-grow flex-shrink">
+							<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+								<p class="w-full text-gray-600 text-xs md:text-sm pt-6 px-6">QUOTE OF THE DAY</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">Victor Hugo</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									To love another person is to see the face of God.
+								</p>
+							</div>
+
+							<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+								<div class="flex items-center justify-between">
+									<img class="w-8 h-8 mr-4 avatar" data-tippy-content="Manning Publications" src="avatar.png" alt="Manning Publications Logo">
+									<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
+								</div>
+							</div>
+						</div>
+
+				</div>
+				<!--/Lead Card-->
+
+
+				<!--Posts Container-->
+				<div class="flex flex-wrap justify-between pt-12 -mx-6">
+
+					<!--1/3 col -->
+					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="https://images.unsplash.com/photo-1475512495835-7959cb9715c9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHw0OTQyNjN8fHx8fHx8MTY0NTgyNDMxNg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800" class="h-64 w-full rounded-t pb-6 quote-image" alt="Try and fail, but don't fail to try - John Quincy Adams">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">QUOTE OF THE DAY</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">John Quincy Adams</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									Try and fail, but don't fail to try.
+								</p>
+							</a>
+						</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+									<img class="w-8 h-8 mr-4 avatar" data-tippy-content="Manning Publications" src="avatar.png" alt="Manning Publications Logo">
+								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
+							</div>
+						</div>
+					</div>
+				
+					
+					<!--1/3 col -->
+					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHwzNjU3NDQ1fHx8fHx8fDE2NDU4MjUwMTA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800" class="h-64 w-full rounded-t pb-6 quote-image" alt="When words fail, music speaks - William Shakespeare">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">QUOTE OF THE DAY</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">William Shakespeare</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									When words fail, music speaks.
+								</p>
+							</a>
+							</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+									<img class="w-8 h-8 mr-4 avatar" data-tippy-content="Manning Publications" src="avatar.png" alt="Manning Publications Logo">
+								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
+							</div>
+						</div>
+					</div>
+
+					<!--1/3 col -->
+					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="https://images.unsplash.com/photo-1522198734915-76c764a8454d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHwzNjU3NDQ1fHx8fHx8fDE2NDU4MjQzOTY&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800" class="h-64 w-full rounded-t pb-6 quote-image" alt="A person often meets his destiny on the road he took to avoid it - Jean de La Fontaine">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">QUOTE OF THE DAY</p>
+								<div class="w-full  font-bold text-xl text-gray-900 px-6">Jean de La Fontaine</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									A person often meets his destiny on the road he took to avoid it.
+								</p>
+							</a>
+						</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+									<img class="w-8 h-8 mr-4 avatar" data-tippy-content="Manning Publications" src="avatar.png" alt="Manning Publications Logo">
+								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
+							</div>
+						</div>
+					</div>
+
+
+					<!--1/2 col -->
+					<div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="https://images.unsplash.com/photo-1547586717-7ac67acce008?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHwzNjU3NDQ1fHx8fHx8fDE2NDU4MjQ0MTI&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800" class="h-full w-full rounded-t pb-6 quote-image" alt="To be good, and do good, is the whole duty of man comprised in a few words - Abigail Adams">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">QUOTE OF THE DAY</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">Abigail Adams</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									To be good, and do good, is the whole duty of man comprised in a few words.
+								</p>
+							</a>
+						</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+									<img class="w-8 h-8 mr-4 avatar" data-tippy-content="Manning Publications" src="avatar.png" alt="Manning Publications Logo">
+								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
+							</div>
+						</div>
+					</div>
+
+					<!--1/2 col -->
+					<div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 flex-row bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">	
+								<img src="https://images.unsplash.com/photo-1487695652027-48e475bfa86f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHw3NjQ4Mjd8fHx8fHx8MTY0NTgyNDQzMw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800" class="h-full w-full rounded-t pb-6 quote-image" alt="We can complain because rose bushes have thorns, or rejoice because thorn bushes have roses - Abraham Lincoln">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">QUOTE OF THE DAY</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">Abraham Lincoln</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									We can complain because rose bushes have thorns, or rejoice because thorn bushes have roses.
+								</p>
+							</a>
+						</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+									<img class="w-8 h-8 mr-4 avatar" data-tippy-content="Manning Publications" src="avatar.png" alt="Manning Publications Logo">
+								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
+							</div>
+						</div>
+					</div>
+
+
+
+					<!--2/3 col -->
+					<div class="w-full md:w-2/3 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">	
+								<img src="https://images.unsplash.com/photo-1643607656651-121c76aa6ed5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHwzMjU4Njd8fHx8fHx8MTY0NTgyNDQ1Mg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800" class="h-full w-full rounded-t pb-6 quote-image" alt="The secret of getting ahead is getting started - Mark Twain">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">QUOTE OF THE DAY</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">Mark Twain</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									The secret of getting ahead is getting started.
+								</p>
+							</a>
+						</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+									<img class="w-8 h-8 mr-4 avatar" data-tippy-content="Manning Publications" src="avatar.png" alt="Manning Publications Logo">
+								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
+							</div>
+						</div>
+					</div>
+
+					<!--1/3 col -->
+					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+								<img src="https://images.unsplash.com/photo-1496849951355-c5e5e9b168c9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHwzNjU3NDQ1fHx8fHx8fDE2NDU4MjQ0NjU&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800" class="h-full w-full rounded-t pb-6 quote-image" alt="Experience is the teacher of all things - Julius Caesar">
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">QUOTE OF THE DAY</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">Julius Caesar</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">
+									Experience is the teacher of all things.
+								</p>
+							</a>
+						</div>
+						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+							<div class="flex items-center justify-between">
+									<img class="w-8 h-8 mr-4 avatar" data-tippy-content="Manning Publications" src="avatar.png" alt="Manning Publications Logo">
+								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!--/ Post Content-->
+						
+			</div>
+			
+			
+				<!--Author-->
+				<div class="flex w-full items-center font-sans p-8 md:p-24">
+					<img class="w-10 h-10 rounded-full mr-4" src="author.png" alt="Jaya Z. Moore">
+					<div class="flex-1">
+						<p class="text-base font-bold text-base md:text-xl leading-none">Jaya Z. Moore</p>
+						<p class="text-gray-600 text-xs md:text-base">This simple site was crafted for the <a class="text-gray-800 hover:text-green-500 no-underline border-b-2 border-green-500" href="https://liveproject.manning.com">Cryptogram liveProject</a></p>
+					</div>
+				</div>
+				<!--/Author-->
+			
+		</div>
+	
+
+	</div>
+
+
+	<footer class="bg-gray-900">	
+		<div class="container max-w-6xl mx-auto flex items-center px-2 py-8">
+
+			<div class="w-full mx-auto flex flex-wrap items-center">
+				<div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
+					<a class="text-gray-900 no-underline hover:text-gray-900 hover:no-underline" href="#">
+						<span class="text-base text-gray-200">Manning Publications</span>
+					</a>
+				</div>
+				<div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
+					<ul class="list-reset flex justify-center flex-1 md:flex-none items-center">
+					  <li>
+						<a class="inline-block py-2 px-3 text-white no-underline" href="https://liveproject.manning.com">liveProject</a>
+					  </li>
+					  <li>
+						<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3" href="mailto:jaya@triplewtech.email">Contact Author</a>
+					  </li>
+					</ul>
+				</div>
+			</div>
+        
+
+		
+		</div>
+	</footer>
+
+	<script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
+	<script src="https://unpkg.com/tippy.js@4"></script>
+	<script>
+		//Init tooltips
+		tippy('.avatar')
+	</script>
 </body>
 </html>
